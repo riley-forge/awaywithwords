@@ -29,7 +29,7 @@ body {
 }
 
 a {
-  color: var(--accent);
+  color: var(--accent-soft);
   text-decoration: none;
 }
 
