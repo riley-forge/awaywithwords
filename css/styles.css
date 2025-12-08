@@ -1,16 +1,20 @@
 
 :root {
-  --bg: #fdfaf6;
-  --card-bg: #ffffff;
-  --accent: #c46a4e;
-  --accent-soft: #f3d2c3;
-  --text: #2b2b2b;
-  --muted: #777777;
-  --border: #e2ded7;
+  --bg: #fdfcfa;           /* soft neutral background */
+  --card-bg: #ffffff;      /* cards stay white for readability */
+
+  --accent: #2E4052;       /* main blue */
+  --accent-soft: #FFC857;  /* warm yellow */
+  
+  --text: #2E4052;         /* body text becomes blue */
+  --muted: #526170;        /* slightly lighter slate gray/blue for muted text */
+
+  --border: #d8d5ce;       /* subtle border */
   --max-width: 960px;
   --radius: 12px;
   --shadow: 0 6px 16px rgba(0,0,0,0.06);
 }
+
 
 * {
   box-sizing: border-box;
@@ -34,8 +38,8 @@ a:hover {
 }
 
 header.site-header {
-  background: linear-gradient(120deg, #fbe7db, #f7f0e9);
-  border-bottom: 1px solid var(--border);
+  background: linear-gradient(120deg, #CDDBE8, #A5BBD2);
+  border-bottom: 4px solid #2E4052;
 }
 
 .header-inner {
@@ -122,7 +126,7 @@ article.recipe {
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--border);
-  background: #f5eee6;
+  background: #FFEDB8;
 }
 
 .hero-image img {
@@ -149,7 +153,7 @@ article.recipe {
   padding: 0.5rem 0.9rem;
   border-radius: 999px;
   border: 1px solid var(--accent);
-  background: #fff;
+  background: #FFC857;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -170,7 +174,7 @@ article.recipe {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 0.75rem;
-  background: #fff7f3;
+  background: #FFEDB8;
   border-radius: var(--radius);
   border: 1px solid var(--border);
   padding: 1rem;
