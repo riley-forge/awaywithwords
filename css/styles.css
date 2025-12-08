@@ -140,7 +140,7 @@ article.recipe {
   font-size: 0.8rem;
   color: var(--muted);
   padding: 0.5rem 0.75rem 0.7rem;
-  background: rgba(255,255,255,0.85);
+  background: #fef7e0;
 }
 
 .jump-to-recipe {
@@ -276,7 +276,7 @@ aside.sidebar {
   border-radius: 10px;
   border: 1px dashed var(--border);
   padding: 0.6rem 0.7rem;
-  background: #fffdf8;
+  background: #fef7e0;
 }
 
 .ad-label {
